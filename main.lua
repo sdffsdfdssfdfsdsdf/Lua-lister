@@ -1,6 +1,6 @@
 _G.Settings = {
     ["key"] = _G.Key,
-    ["site"] = "loadstring(game:HttpGet("https://raw.githubusercontent.com/sdffsdfdssfdfsdsdf/Lua-lister/refs/heads/main/main.lua"))()",
+    ["site"] = "https://github.com/sdffsdfdssfdfsdsdf/Lua-lister/blob/main/keys.json",
     ["text"] = "You're not whitelisted";
 }
 local abc = game:HttpGet(_G.Settings.site .. _G.Settings.key)
